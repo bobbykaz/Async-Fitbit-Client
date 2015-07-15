@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitbit.API.Model", "Fitbit.API.Model\Fitbit.API.Model.csproj", "{253C8445-8D09-41AB-AA20-F875BECDFD19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitbit.API.Client", "Fitbit.API.Client\Fitbit.API.Client.csproj", "{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D3D77C4B-563B-401F-A1F1-BE740672B446}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitbit.TestConsole", "Fitbit.TestConsole\Fitbit.TestConsole.csproj", "{70981C8C-437C-43F0-A64F-6157FDD57A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Secrets", "Developer.Secrets\Developer.Secrets.csproj", "{B514B206-DA99-4394-85D8-30C50F54725E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Release|ARM.ActiveCfg = Release|Any CPU
+		{253C8445-8D09-41AB-AA20-F875BECDFD19}.Release|x86.ActiveCfg = Release|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A67DAFB0-E7B8-4D52-8713-BCB3E5742790}.Release|x86.ActiveCfg = Release|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Release|ARM.ActiveCfg = Release|Any CPU
+		{70981C8C-437C-43F0-A64F-6157FDD57A47}.Release|x86.ActiveCfg = Release|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B514B206-DA99-4394-85D8-30C50F54725E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
