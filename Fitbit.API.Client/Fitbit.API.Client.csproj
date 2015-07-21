@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ActivityClient.cs" />
+    <Compile Include="BodyClient.cs" />
     <Compile Include="FitbitClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SleepClient.cs" />

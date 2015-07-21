@@ -40,7 +40,7 @@
     <Compile Include="Activities\GetActivities.cs" />
     <Compile Include="Activities\PostActivity.cs" />
     <Compile Include="AuthToken.cs" />
-    <Compile Include="Body\Body.cs" />
+    <Compile Include="Body\GetBody.cs" />
     <Compile Include="Common\Enums.cs" />
     <Compile Include="Common\MeasurementSystems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

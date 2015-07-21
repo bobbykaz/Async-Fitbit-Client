@@ -14,6 +14,18 @@ namespace Fitbit.API.Model.Common.Enums.Profile
     }
 }
 
+namespace Fitbit.API.Model.Common.Enums.Collections
+{
+    public enum CollectionTimespan
+    { 
+        _1d,
+        _7d,
+        _30d,
+        _1w,
+        _1m
+    }
+}
+
 namespace Fitbit.API.Model.Common.Enums.UnitSystems
 {
     public enum Locale

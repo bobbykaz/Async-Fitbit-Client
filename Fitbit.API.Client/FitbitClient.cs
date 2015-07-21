@@ -7,6 +7,8 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
+using Fitbit.API.Model.Common.Enums.Collections;
+
 namespace Fitbit.API.Client
 {
     public partial class FitbitClient : BaseClient
@@ -237,6 +239,12 @@ namespace Fitbit.API.Client
             {
                 throw;
             }
+        }
+
+        protected static string ConvertCollectionTimespanToString(CollectionTimespan cts)
+        {
+            string name = Enum.GetName(typeof(CollectionTimespan), cts);
+            return name.TrimStart('_');
         }
     }
 }
