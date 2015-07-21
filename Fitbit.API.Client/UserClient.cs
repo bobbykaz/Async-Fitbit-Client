@@ -15,5 +15,18 @@ namespace Fitbit.API.Client
             return await GetAsync<GetUserResponse>(query);
         }
 
+        public async Task<GetUserResponse> GetUser(int userid)
+        {
+            string query = string.Format("/1/user/{0}/profile.json", userid);
+            return await GetAsync<GetUserResponse>(query);
+        } 
+
+        public async Task<GetUserResponse> UpdateUser(UpdateUserRequest request)
+        {
+            string query = "/1/user/-/profile.json?";
+            string queryParams = SerializeToQueryString<UpdateUserRequest>(request);
+            return await PostAsync<GetUserResponse>(query+queryParams);
+        }
+
     }
 }
