@@ -40,6 +40,7 @@
     <Compile Include="Activities\GetActivities.cs" />
     <Compile Include="Activities\PostActivity.cs" />
     <Compile Include="AuthToken.cs" />
+    <Compile Include="Body\Body.cs" />
     <Compile Include="Common\Enums.cs" />
     <Compile Include="Common\MeasurementSystems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -47,10 +48,9 @@
     <Compile Include="Sleep\LogSleep.cs" />
     <Compile Include="Sleep\Sleep.cs" />
     <Compile Include="User\GetUser.cs" />
-    <Compile Include="User\PutUser.cs" />
+    <Compile Include="User\UpdateUser.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Body\" />
     <Folder Include="Foods\" />
     <Folder Include="Profile\" />
   </ItemGroup>
