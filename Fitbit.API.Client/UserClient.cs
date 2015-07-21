@@ -21,11 +21,11 @@ namespace Fitbit.API.Client
             return await GetAsync<GetUserResponse>(query);
         } 
 
-        public async Task<GetUserResponse> UpdateUser(UpdateUserRequest request)
+        public async Task<UpdateUserResponse> UpdateUser(UpdateUserRequest request)
         {
             string query = "/1/user/-/profile.json?";
             string queryParams = SerializeToQueryString<UpdateUserRequest>(request);
-            return await PostAsync<GetUserResponse>(query+queryParams);
+            return await PostAsync<UpdateUserResponse>(query + queryParams);
         }
 
     }

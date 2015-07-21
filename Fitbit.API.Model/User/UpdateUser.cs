@@ -57,4 +57,9 @@ namespace Fitbit.API.Model.User
         [JsonConverter(typeof(StringEnumConverter))]
         public Locale? glucoseUnit { get; set; }
     }
+
+    public class UpdateUserResponse : GetUserResponse
+    { 
+    
+    }
 }
